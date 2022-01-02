@@ -1,0 +1,63 @@
+.navbar-brand{
+	text-align: left;
+	color: black;
+}
+
+.navbar{
+	background-color: gray;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.navbar-toggler{
+	position: relative;
+	float: left;
+	align-items: flex-end;
+}
+
+.etichetta{
+	color: black;
+	text-align: center;
+}
+
+
+
+.list-group-item > div{
+
+	background-color: gray;
+}
+
+ul.list-group:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.list-group-item {
+    float: left;
+    border: 0 !important;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.list-group-item{
+	border-color: gray;
+	background-color: gray;
+}
